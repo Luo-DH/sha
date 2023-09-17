@@ -10,6 +10,6 @@ jobs:
       permissions:
         contents: write
       steps:
-        - uses: ncipollo/release-action@v1
+        - uses: ncipollo/release-action@v2
           with:
             generateReleaseNotes: true
