@@ -16,6 +16,11 @@ fun latestGitTag(): String {
     }
 }
 
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor(0, "seconds")
+}
+
+
 publishing { // 发布配置
     publications { // 发布的内容
         register<MavenPublication>("release") { // 注册一个名字为 release 的发布内容
