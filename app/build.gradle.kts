@@ -45,7 +45,9 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-//    api(project(":ui"))
+    api(project(":ui"))
 
-    implementation("com.github.Luo-DH:jitpack-lib-sample:1.0.0-SNAPSHOT")
+//    implementation("com.github.Luo-DH:jitpack-lib-sample:1.0.0-SNAPSHOT")
+
+//    implementation ("com.github.Luo-DH:sha:Tag")
 }
