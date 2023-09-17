@@ -16,5 +16,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "sha"
-include(":app")
 include(":ui")
