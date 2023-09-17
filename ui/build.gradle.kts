@@ -7,7 +7,8 @@ plugins {
 
 val GROUP_ID = "com.github.Luo-DH"
 val ARTIFACT_ID = "jitpack-lib-sample"
-val VERSION = latestGitTag().ifEmpty { "1.0.0-SNAPSHOT" }
+//val VERSION = latestGitTag().ifEmpty { "1.0.0-SNAPSHOT" }
+val VERSION = "0.0.0.9"
 
 fun latestGitTag(): String {
     val process = ProcessBuilder("git", "describe", "--tags", "--abbrev=0").start()
