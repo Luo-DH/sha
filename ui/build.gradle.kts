@@ -13,6 +13,7 @@ fun latestGitTag(): String {
     val process = ProcessBuilder("git", "describe", "--tags", "--abbrev=0").start()
     return  process.inputStream.bufferedReader().use {bufferedReader ->
         bufferedReader.readText().trim()
+
     }
 }
 
